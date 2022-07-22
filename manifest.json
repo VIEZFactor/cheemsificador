@@ -1,0 +1,26 @@
+{
+  "name": "Cheemsificador | Traductor de español a Cheems",
+  "short_name": "Cheemsificador",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#b8ad2c",
+  "description": "Traductor de español a Cheems, para traducir tus textos legales, demandas y cartas dirigidas a presidentes de español a Cheems.",
+  "icons": [{
+    "src": "img/favicon/favicon-16.png",
+    "sizes": "16x16",
+    "type": "image/png"
+  }, {
+    "src": "img/favicon/favicon-72.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "img/favicon/favicon-192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "img/favicon/favicon-310.png",
+    "sizes": "310x310",
+    "type": "image/png"
+  }]
+}

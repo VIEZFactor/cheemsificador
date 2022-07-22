@@ -1,0 +1,140 @@
+body {
+  background-color: #b8ad2c;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  margin-left: auto;
+  text-align: center;
+  font-weight: 100;
+  font-size: 2.3em;
+  color: #ffffff;
+}
+
+p{  
+  font-family: 'Open Sans', sans-serif;
+}
+
+.version {
+  font-size: 0.8em;
+  color: #ffffff;
+}
+
+p#cheems {
+  text-align: center;
+  color: #ffffff;
+  min-height: 10vh;
+  background: #544b05;
+  border-radius: 1em;
+  padding: 0.5em;
+}
+
+.contenedor-traductor {
+  max-width: 500px;
+  margin: auto;
+}
+
+.cheems{
+    max-width: 12em;
+}
+
+.contenedor-principal h5{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.caja-traductor { 
+    background-color: #9b9121;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ecf0f1;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    font-size: 1em;
+    font-weight: 100;
+    color: #ffffff;
+    border-radius: 2em;
+    margin-top: 1em;
+    transition: 250ms;
+    -webkit-transition: 250ms;
+}
+
+.caja-traductor:focus-visible {
+    /* Draw a very noticeable focus style for
+       keyboard-focus on browsers that do support
+       :focus-visible */
+    outline: 4px dashed #65431a;
+    background: transparent;
+    border-radius: 2em;
+  }
+
+.historial-cambios{
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.formButton {
+  float: right;
+	background-color:#ffffff;
+	display:inline-block;
+	color:#2ecc71;
+	font-size:28px;
+	font-weight: 500;
+	padding:6px 24px;
+  margin-top: 15px;
+  margin-right: 60px;
+	text-decoration:none;
+}
+
+.formButton:hover {
+	background-color: #9b9121;
+  color:#ffffff;
+}
+
+.formButton:active {
+	position:relative;
+	top:3px;
+}
+
+/*To remove the outline that appears on clicking the input textbox*/
+input:focus {
+  outline: none;
+}
+
+/* To format the placeholder text color */
+::-webkit-input-placeholder {
+   color: #ecf0f1;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #ecf0f1;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #ecf0f1;  
+}
+
+:-ms-input-placeholder {  
+   color: #ecf0f1;  
+}
+
+footer{
+    background-color: black;
+    color: white;
+    min-height: 5vh;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#advertencia-nojs{
+    color: white;
+    text-align: center;
+}
